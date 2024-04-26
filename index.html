@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+</head>
+<body>
+    <div class="taskBlock" id="taskBlock9">
+        <div class="taskBlock__solution">
+            <form action="" class = "form">
+                <p class = "form__title">Написать нам</p>
+                <input id = "username" type="text" placeholder="Имя пользователя">
+                <input id = "password" type="password" placeholder="пароль">
+                <input id = "passwordAgain" type="password" placeholder="пароль еще раз">
+                <input id = "email" type="text" placeholder = "Email">
+                <input id = "phone" type="text" placeholder = "Телефон">
+                <input id = "fullname" type="text" placeholder="ФИО">
+                <input id = "date" type="date" placeholder="дата">
+                <input id = "faculty" type="text" placeholder="факультет">
+                <input id = "subfaculty" type="text" placeholder="кафедра">
+                <ol class = "errors">
+                </ol>
+                <button type = "submit" class = "submitBtn">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <div class="menus">
+        <div class="menu_wrap hidden">
+            <h3 class = "menu__header">Фрукты</h3>
+            <ul class="menu">
+                <li class = "menu__item">Яблоко</li>
+                <li class = "menu__item">Банан</li>
+                <li class = "menu__item">Груша</li>
+            </ul>
+        </div>
+        <div class="menu_wrap hidden">
+            <h3 class = "menu__header">Овощи</h3>
+            <ul class="menu">
+                <li class = "menu__item">Огурец</li>
+                <li class = "menu__item">Помидор</li>
+                <li class = "menu__item">Морковь</li>
+            </ul>
+        </div>
+        <div class="menu_wrap hidden">
+            <h3 class = "menu__header">Сладости</h3>
+            <ul class="menu">
+                <li class = "menu__item">Торт</li>
+                <li class = "menu__item">Маршмеллоу</li>
+                <li class = "menu__item">Мармелад</li>
+            </ul>
+        </div>
+        <div class="menu_wrap hidden">
+            <h3 class = "menu__header">Снеки</h3>
+            <ul class="menu">
+                <li class = "menu__item">Чипсы</li>
+                <li class = "menu__item">Сухарики</li>
+                <li class = "menu__item">Поп-корн</li>
+            </ul>
+        </div>
+    </div>
+    <script src = "regexCheckers.js"></script>
+    <script src = "formHandler.js"></script>
+    <script src = "menus.js"></script>
+</body>
+</html>
